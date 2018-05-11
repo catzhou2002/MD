@@ -1,8 +1,5 @@
 # Markdown模板
 
-
-[新浪 新闻](http://news.sina.com.cn/"新闻")
-
 	## 标题一
 ## 标题一
 ***
@@ -83,4 +80,49 @@
 >>引用嵌套
 
 >引用2
+
+
 ***
+	[新浪 新闻](http://news.sina.com.cn/"新闻")
+
+	[新浪 新闻](http://news.sina.com.cn/)
+
+	[新浪 新闻][SinaNews]
+
+	[SinaNews]:http://news.sina.com.cn/"新闻"
+
+	[新浪新闻][]
+
+	[新浪新闻]:http://news.sina.com.cn/"新闻"
+
+	<http://news.sina.com.cn>
+
+[新浪 新闻](http://news.sina.com.cn/"新闻")
+
+[新浪 新闻](http://news.sina.com.cn/)
+
+[新浪 新闻][SinaNews]
+
+[SinaNews]:http://news.sina.com.cn/"新闻"
+
+[新浪新闻][]
+
+[新浪新闻]:http://news.sina.com.cn/"新闻"
+
+<http://news.sina.com.cn>
+***
+	![新浪logo](http://i2.sinaimg.cn/dy/deco/2012/0613/yocc20120613img01/news_logo.png)
+
+	![新浪logo][SinaLogo]
+
+	[SinaLogo]:http://i2.sinaimg.cn/dy/deco/2012/0613/yocc20120613img01/news_logo.png
+
+![新浪logo](http://i2.sinaimg.cn/dy/deco/2012/0613/yocc20120613img01/news_logo.png)
+
+![新浪logo][SinaLogo]
+
+[SinaLogo]:http://i2.sinaimg.cn/dy/deco/2012/0613/yocc20120613img01/news_logo.png
+
+***
+		代码（前面按Tab或4个空格）
+    代码
